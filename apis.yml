@@ -1,7 +1,24 @@
 aid: 99dresses
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/99dresses.png
 name: 99Dresses
-description: 99Dresses is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 99Dresses was a fashion resale and clothing-swap marketplace ("infinite closet") founded
+  by Nikki Durkin, which went through Y Combinator and operated from roughly 2011 to June 2014 before
+  shutting down. It offered a consumer web and mobile app for trading second-hand designer clothing;
+  it never exposed a public developer API, SDK, or documentation surface. As of 2026 the 99dresses.com
+  domain resolves to a "Launching Soon" parked placeholder with no live product or developer content.
+  This profile was surfaced as a portfolio lead and enriched by the API Evangelist pipeline; no real
+  API artifacts exist to harvest because the company is defunct.
 url: https://raw.githubusercontent.com/api-evangelist/99dresses/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
@@ -10,11 +27,25 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+x-status: defunct
+x-shutdown: '2014-06'
 tags:
 - Company
+- Fashion
+- E-commerce
+- Marketplace
+- Resale
+- Consumer
+- Defunct
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
